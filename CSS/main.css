@@ -1,0 +1,145 @@
+
+/* navigation */
+
+nav{
+    padding: 10px 20px 5px 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1.5rem;
+    padding: 0;
+}
+
+li {
+    font-size: 9rem;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+a {
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 
+    margin: auto;
+    text-decoration: none;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.07);
+}
+
+.main {
+	background-image: url("../images/Toronto.jpg");
+	/*height: 700px;*/
+	width: auto;
+	height: 600px;
+	background-size: cover;
+	background-position: center; 
+}
+
+.slogan{
+	text-align: center;
+	color: white;
+	padding-top: 20rem;
+	margin: 0%;
+}
+
+.about-us{
+	text-align: center;
+	color: black;
+	padding-bottom: 1rem;
+}
+
+.about-title{
+	text-align: center;
+	color: black;
+	padding: .5rem 0rem 0rem 0rem;
+}
+
+
+
+.profile-blurb{
+	text-align: center;
+	padding: 0rem 3rem 1rem 3rem;
+}
+
+
+
+
+.blog-image{
+	width: 200px; 
+	height: 200px; 
+	margin: auto;
+	display: block;
+}
+
+
+
+.link-size{
+	font-size: 1.25rem;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: rgb(105,105,105);
+}
+
+footer {
+	background-color: black;
+}
+
+.footer-text {
+	color: white;
+	text-align: center;
+	font-size: 1rem;
+	padding: 1rem 0rem 1rem 0rem; 
+	margin: 0%;
+}
+
+.map {
+	width: auto;
+	background-size: cover;
+	background-image: url("../images/map.jpg");
+	margin: 0%;
+	height: 400px;	
+}
+
+
+.blog-color{
+	background-color: rgb(235,235,235);
+}
+
+
+
+/* Contact form styling */
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
