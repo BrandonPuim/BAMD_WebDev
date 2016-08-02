@@ -1,35 +1,33 @@
 
 /* navigation */
 
-nav{
-    padding: 10px 20px 5px 5px;
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
 }
 
-ul {
-    list-style-type: none;
-    margin: 1.5rem;
-    padding: 0;
+#panel {
+    padding: 50px;
+    display: none;
 }
 
-li {
-    font-size: 9rem;
-    display: inline-block;
-    padding: 10px 10px;
-    text-decoration: none;
+.text-white {
+	color: FFF; 
 }
 
-a {
-    padding: 0rem 0rem 0rem 0rem;
-    font-size: 
-    margin: auto;
-    text-decoration: none;
+.background-black {
+	background-color: #292929;
 }
 
-header{
-	position: fixed;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.07);
-}
+
+
+/*.active { background-color: #FFF}*/
+
+.header.active {color:#777;background-color:#696868} 
+
 
 .main {
 	background-image: url("../images/Toronto.jpg");
@@ -45,6 +43,7 @@ header{
 	color: white;
 	padding-top: 20rem;
 	margin: 0%;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .about-us{
@@ -53,20 +52,22 @@ header{
 	padding-bottom: 1rem;
 }
 
+.project-title{
+	text-align: center;
+	color: white;
+	padding: 2rem 0rem 2rem 0rem;
+}
+
 .about-title{
 	text-align: center;
 	color: black;
-	padding: .5rem 0rem 0rem 0rem;
+	padding: 4rem 0rem 2rem 0rem;
 }
-
-
 
 .profile-blurb{
 	text-align: center;
-	padding: 0rem 3rem 1rem 3rem;
+	padding: 0rem 4rem 1rem 4rem;
 }
-
-
 
 
 .blog-image{
@@ -76,7 +77,13 @@ header{
 	display: block;
 }
 
+.four-corner{
+    border-radius: 10px;
+}
 
+.box-shadow {
+    text-shadow: 2px 2px 292929;
+}
 
 .link-size{
 	font-size: 1.25rem;
@@ -112,6 +119,15 @@ footer {
 
 
 
+.project_1 {
+	background-image: url("../images/web_1.png");
+	width: auto;
+	background-size: cover;
+	background-position: center; 
+}
+
+
+
 /* Contact form styling */
 
 input {
@@ -141,5 +157,18 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
 }
+
+input[type=radio] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+
+
 
 
