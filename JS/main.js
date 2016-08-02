@@ -9,3 +9,10 @@ $(function() {
     });
 });
 
+$('document').ready(function (){
+	$('select').on('change', function(){
+		var option = $(this).val();
+		console.log(option);
+		$("html, body").animate({ scrollTop: $('#'+option).offset().top }, 1000);
+	});
+})

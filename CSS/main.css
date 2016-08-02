@@ -1,18 +1,7 @@
+/* General */
 
-/* navigation */
 
 
-#panel, #flip {
-    padding: 5px;
-    text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-}
-
-#panel {
-    padding: 50px;
-    display: none;
-}
 
 .text-white {
 	color: FFF; 
@@ -24,11 +13,12 @@
 
 
 
-/*.active { background-color: #FFF}*/
-
-.header.active {color:#777;background-color:#696868} 
 
 
+
+
+
+/* Banner Section */
 .main {
 	background-image: url("../images/Toronto.jpg");
 	/*height: 700px;*/
@@ -37,6 +27,18 @@
 	background-size: cover;
 	background-position: center; 
 }
+
+/* Colors */
+
+
+
+
+
+
+/* Titles */
+
+
+
 
 
 
@@ -98,13 +100,7 @@ footer {
 	margin: 0%;
 }
 
-.map {
-	width: auto;
-	background-size: cover;
-	background-image: url("../images/map.jpg");
-	margin: 0%;
-	height: 400px;	
-}
+
 
 
 .blog-color{
@@ -112,6 +108,24 @@ footer {
 }
 
 
+
+.project{
+	float: left;
+	background-image: url("../images/web_1.png");
+	height: 400px;
+	width: 25%;
+	background-size: cover;
+	background-position: center; 
+}
+
+.project2{
+	float: left;
+	background-image: url("../images/web_1.png");
+	height: 400px;
+	width: 25%;
+	background-size: cover;
+	background-position: center; 
+}
 
 .project_1 {
 	background-image: url("../images/web_1.png");
@@ -122,19 +136,17 @@ footer {
 
 
 
-/* Contact form styling */
 
+/* Contact form styling */
 input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
-
 textarea {
 	width: 100%;
 }
-
 select {
     width: 100%;
     padding: 16px 20px;
@@ -142,7 +154,6 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
-
 input[type=submit] {
     padding:5px 15px; 
     background:#ccc; 
@@ -151,7 +162,6 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
 }
-
 input[type=radio] {
     padding:5px 15px; 
     background:#ccc; 
@@ -159,6 +169,19 @@ input[type=radio] {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+}
+
+/* map */
+.map{
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 30rem;
+}
+iframe{
+  height: 100%;
+  width: 100%;
+  border: 0;
 }
 
 
