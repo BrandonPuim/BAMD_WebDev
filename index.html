@@ -2,21 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>B.A.M.D Home Page</title>
-
 		<link rel="stylesheet" href="CSS/foundation.css">
 		<link rel="stylesheet" href="CSS/main.css">
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/ font-awesome.min.css">
-
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="JS/main.js"></script>
 	</head>
 	<body>
-		<header class= "clear header " id="header">
-			<figure class="left">
-				<img src="images/project.png" style="width:80px; height:80px;" alt="Logo">
+		<header class="flex fixed absolute-mobile header mobile-space-around" id="header">
+			<figure class="">
+				<img src="images/project.png" class="logo" alt="Logo">
 			</figure>
-			<nav class="right large-nav">
+			<nav class="flex flex-grow-single mobile-flex-hide justify-end large-nav">
 				<ul>
 		  			<li><a class="link-size" href="#main">Home</a></li>
 		  			<li><a class="link-size" href="#about-us">About Us</a></li>
@@ -25,133 +24,133 @@
 		  			<li><a class="link-size" href="#contact">Contact</a></li>
 		  		</ul>
 			</nav>
-			<nav class="right small-nav">
+			<nav class="small-nav">
 				<select id="small-nav">
-					<option value="main"> Home </option>
-					<option value="about-us"> About Us </option>
-					<option value="projects"> Projects </option>
-					<option value="blog"> Blog </option>
-					<option value="contact"> Contact </option>
+					<option value="main">Home</option>
+					<option value="about-us">About Us</option>
+					<option value="projects">Projects</option>
+					<option value="blog">Blog</option>
+					<option value="contact">Contact</option>
 				</select>
 			</nav>		
 		</header>
-		<section class= "main clear" id= "main">
+		<section class="main clear main-m" id="main">
 			<h1 class="slogan">Art of Healthy Web Development</h1>
 		</section>
-		<section class = "about-us clear blog-container padding-top" id="about-us">
-			<h2 class="about-title"> About Us </h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit, quas enim doloremque dicta dolorum ratione facilis.</p>
-			<div class= "col-1-4 profile center-text col-1-1-m padding-bottom">
+		<section class="flex flex-wrap pad-bott-lrg" id="about-us">
+			<h2 class="col-1-1 about-us align-center"> About Us </h2>
+			<p class="col-1-1 about-us align-center padd-mob">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit, quas enim doloremque dicta dolorum ratione facilis.</p>
+			<div class="col-1-4 profile center-text col-1-1-m padding-bottom">
 				<figure>
 					<img src="images/person.jpg" class="four-corner" alt="Ala">
 				</figure>
 				<h4>Ala</h4>
 				<p class="profile-blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-				<a href=""><img src="images/linkedin.png" alt="Ala LinkedIn" style="width:40px; height:40px;"></a>
-				<a href=""><img src="images/linkedin.png" alt="Ala Twitter" style="width:40px; height:40px;"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Ala LinkedIn"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Ala Twitter"></a>
 			</div>
-			<div class= "col-1-4 profile col-1-1-m padding-bottom" >
+			<div class="col-1-4 profile center-text col-1-1-m padding-bottom">
 				<figure>
-					<img src="images/person.jpg" class="four-corner alt="Brandon">
+					<img src="images/person.jpg" class="four-corner" alt="Brandon">
 				</figure>
 				<h4>Brandon</h4>
 				<p class="profile-blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-				<a href=""><img src="images/linkedin.png" alt="Ala LinkedIn" style="width:40px; height:40px;"></a>
-				<a href=""><img src="images/linkedin.png" alt="Ala Twitter" style="width:40px; height:40px;"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Brandon LinkedIn"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Brandon Twitter"></a>
 			</div>
-			<div class= "col-1-4 profile col-1-1-m padding-bottom">
+			<div class="col-1-4 profile center-text col-1-1-m padding-bottom">
 				<figure>
-					<img src="images/person.jpg" class="four-corner alt="Dan">
+					<img src="images/person.jpg" class="four-corner" alt="Dan">
 				</figure>
 				<h4>Dan</h4>
 				<p class="profile-blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-				<a href=""><img src="images/linkedin.png" alt="Ala LinkedIn" style="width:40px; height:40px;"></a>
-				<a href=""><img src="images/linkedin.png" alt="Ala Twitter" style="width:40px; height:40px;"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Dan LinkedIn"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Dan Twitter"></a>
 			</div>
- 			<div class= "col-1-4 profile col-1-1-m padding-bottom">
+ 			<div class="col-1-4 profile center-text col-1-1-m padding-bottom">
 				<figure>
-					<img src="images/person.jpg" class="four-corner alt="Marissa">
+					<img src="images/person.jpg" class="four-corner" alt="Marissa">
 				</figure>
 				<h4>Marissa</h4>
 				<p class="profile-blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-				<a href=""><img src="images/linkedin.png" alt="Ala LinkedIn" style="width:40px; height:40px;"></a>
-				<a href=""><img src="images/linkedin.png" alt="Ala Twitter" style="width:40px; height:40px;"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Marissa LinkedIn"></a>
+				<a href=""><img src="images/linkedin.png" class="social-icon" alt="Marissa Twitter"></a>
 			</div>
 		</section>
-		<section class = "projects clear padding-top padding-bottom background-black" id="projects">
-			<h2 class="project-title" > Projects </h2>
-			<div class= "col-1-4 project col-1-1-m" alt="Project 1">			
+		<section class="flex flex-wrap projects clear padding-top padding-bottom background-black"  id="projects">
+			<h2 class="col-1-1 project-title">Projects</h2>
+			<div class="flex-direction col-1-4 project col-1-1-m" alt="Project 1">			
 				<p></p>
 			</div>
-			<div class= "col-1-4 project2 col-1-1-m" alt="Project 2">				
+			<div class="col-1-4 project2 col-1-1-m" alt="Project 2">				
 				<p></p>				
 			</div>
-			<div class= "col-1-4 project col-1-1-m" alt="Project 3">				
+			<div class="col-1-4 project col-1-1-m" alt="Project 3">				
 				<p></p>				
 			</div>
-			<div class= "col-1-4 project2 col-1-1-m" alt="Project 4">	
+			<div class="col-1-4 project2 col-1-1-m" alt="Project 4">	
 				<p></p>		
 			</div>
-			<div class= "col-1-4 project2 col-1-1-m" alt="Project 5">				
+			<div class="col-1-4 project2 col-1-1-m" alt="Project 5">				
 				<p></p>
 			</div>
-			<div class= "col-1-4 project col-1-1-m" alt="Project 6">	
+			<div class="col-1-4 project col-1-1-m" alt="Project 6">	
 				<p></p>
 			</div>
-			<div class= "col-1-4 project2 col-1-1-m" alt="Project 7">				
+			<div class="col-1-4 project2 col-1-1-m" alt="Project 7">				
 				<p></p>
 			</div>
-			<div class= "col-1-4 project col-1-1-m" alt="Project 8">
+			<div class="col-1-4 project col-1-1-m" alt="Project 8">
 				<p></p>
 			</div>
 		</section>
-		<section class ="blog clear blog-color blog-container padding-top " id="blog">
-			<h2 class="about-title" >Our Blog</h2>
-			<div class="clear blog-container">
-				<figure class= "col-1-4 left col-1-1-m">
+		<section class="blog clear blog-color blog-container padding-top" id="blog">
+			<h2 class="about-title">Our Blog</h2>
+			<div class="flex clear blog-container">
+				<figure class="col-1-4 left col-1-1-m">
 					<img class="blog-image" src="images/project.png" alt="Blog Post 1">
 				</figure>
 				<div class="col-3-4 left col-1-1-m">
 					<h3 class="center-text-m">Name of the Blog</h3>
 					<p class="padding-right center-text-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-					<a href=""> Read More </a>
+					<a href="">Read More</a>
 				</div>	
 			</div>
-			<div class="clear blog-container">
-				<figure class= "col-1-4 left col-1-1-m" >
+			<div class="flex clear blog-container">
+				<figure class="col-1-4 left col-1-1-m">
 					<img src="images/project.png" alt="Blog Post 2" class="blog-image">
 				</figure>
 				<div class="col-3-4 left col-1-1-m">
 					<h3 class="center-text-m">Name of the Blog</h3>
 					<p class="padding-right col-1-1-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-					<a href=""> Read More </a>
+					<a href="">Read More</a>
 				</div>	
 			</div>
-			<div class="clear blog-container">
-				<figure class= "col-1-4 left col-1-1-m" >
+			<div class="flex clear blog-container">
+				<figure class="col-1-4 left col-1-1-m">
 					<img src="images/project.png" alt="Blog Post 3" class="blog-image">
 				</figure>
 				<div class="col-3-4 left col-1-1-m">
 					<h3 class="center-text-m">Name of the Blog</h3>
 					<p class="padding-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-					<a href=""> Read More </a>
+					<a href="">Read More</a>
 				</div>	
 			</div>
 			<div class="clear blog-container">
-				<figure class= "col-1-4 left col-1-1-m" >
+				<figure class="col-1-4 left col-1-1-m" >
 					<img src="images/project.png" alt="Blog Post 3" class="blog-image">
 				</figure>
 				<div class="col-3-4 left col-1-1-m">
 					<h3 class="center-text-m">Name of the Blog</h3>
 					<p class="padding-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit.</p>
-					<a href=""> Read More </a>
+					<a href="">Read More</a>
 				</div>	
 			</div>
 		</section>
-		<section class = "contact clear padding-top" id = "contact">
+		<section class="contact clear padding-top" id="contact">
 			<h2 class="about-title">Contact Us</h2>
  			<div class="blog-container">
-				<div class=" clear left col-1-2 border blue col-1-1-m">
+				<div class="clear left col-1-2 border blue col-1-1-m">
 					<form>
 		  				First name:<br>
 		  				<input type="text" name="firstname"><br>
@@ -176,16 +175,16 @@
 			  			<input type="radio" name="letter" value="yes">
 			  			<label for="no">No</label>  
 			  			<input type="radio" name="letter" value="no"> 
-			  			<input type="submit" value="Submit">
+			  			<input type="submit" value="Submit" onclick="return initFizz()">
 					</form>
 				</div>
-				<div class="clear left col-1-2 border red col-1-1-m">				
+				<div class="clear col-1-2 border red col-1-1-m">				
 					<h2>B.A.M.D. Web Dev</h2>
 					<h3>462 Wellington St W #100,
 						Toronto, M5V1E3
 						647.793.2333</h3>
-					<h3>contact@bamdweddev.com</h3>
-					<i class="fa fa-car" style="font-size:60px;color:red;"></i>
+					<p>contact@bamdweddev.com</p>
+					<i class="fa fa-car car fa-5x"></i>
 				</div>
 			</div>		
 			<div class="map">

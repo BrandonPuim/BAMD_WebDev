@@ -1,47 +1,36 @@
 /* General */
 
-
-
-
-.text-white {
+.text-white{
 	color: FFF; 
 }
 
-.background-black {
+.background-black{
 	background-color: #292929;
 }
-
-
-
-
-
-
-
 
 /* Banner Section */
 .main {
 	background-image: url("../images/Toronto.jpg");
-	/*height: 700px;*/
 	width: auto;
 	height: 600px;
 	background-size: cover;
 	background-position: center; 
 }
 
-/* Colors */
+.social-icon{
+	width: 40px; 
+	height: 40px;
+}
 
-
-
-
-
-
-/* Titles */
-
-
-
-
-
-
+.slogan{
+	text-align: center;
+	font-size: 3.75rem;
+	color: white;
+	padding-top: 20rem;
+	margin: 0%;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
 .about-us{
 	text-align: center;
 	color: black;
@@ -64,7 +53,6 @@
 	text-align: center;
 	padding: 0rem 4rem 1rem 4rem;
 }
-
 
 .blog-image{
 	width: 200px; 
@@ -100,40 +88,31 @@ footer {
 	margin: 0%;
 }
 
-
-
-
 .blog-color{
 	background-color: rgb(235,235,235);
 }
 
-
-
 .project{
-	float: left;
+	
 	background-image: url("../images/web_1.png");
 	height: 400px;
-	width: 25%;
 	background-size: cover;
 	background-position: center; 
 }
 
 .project2{
-	float: left;
+	
 	background-image: url("../images/web_1.png");
 	height: 400px;
-	width: 25%;
 	background-size: cover;
 	background-position: center; 
 }
 
-.project_1 {
-	background-image: url("../images/web_1.png");
-	width: auto;
-	background-size: cover;
-	background-position: center; 
+.logo{
+    width: 7rem; 
+    height: 7rem;
+    padding-left: 1rem;
 }
-
 
 
 
@@ -183,6 +162,20 @@ iframe{
   width: 100%;
   border: 0;
 }
+
+/* Font Awesome */
+.car{
+    font-size: 3.75rem;
+    color: red;
+}
+
+.fa-5x{
+    font-size:16em;
+}
+
+
+
+
 
 
 

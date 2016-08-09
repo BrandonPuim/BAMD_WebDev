@@ -7,19 +7,36 @@ body, a, p, li {
 	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+html,body{
+    overflow-x: hidden;  /* fixed right side page spacing */
+}
+
 body{
 	margin: 0%
 }
-.slogan{
-	text-align: center;
-	color: white;
-	padding-top: 20rem;
-	margin: 0%;
-	text-shadow: 2px 2px 4px #000000;
-	font-family: 'Open Sans Condensed', sans-serif;
+
+a {
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 
+    margin: auto;
+    text-decoration: none;
 }
 
-/* headings */
+ul {
+    list-style-type: none;
+    margin: 1.5rem;
+    padding: 0;
+}
+
+li {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* Font Sizes */
 h1 {
 	font-size: 3rem;
 }
@@ -38,61 +55,68 @@ h5 {
 h6 {
 	font-size: .75rem;
 } 
+p{
+	font-size: 1rem;
+}
 
 
 /* Nav */
-nav{
-    padding: 10px 20px 5px 5px;
-}
-ul {
-    list-style-type: none;
-    margin: 1.5rem;
-    padding: 0;
-}
-li {
-    font-size: 1rem;
-    display: inline-block;
-    padding: 10px 10px;
-    text-decoration: none;
-}
-a {
-    padding: 0rem 0rem 0rem 0rem;
-    font-size: 
-    margin: auto;
-    text-decoration: none;
-}
 header{
 	position: fixed;
 	width: 100%;
 }
+
+.active {background-color: black}  /* header turns color after hero image */
+
+nav{
+    padding: 25px 20px 5px 5px;
+}
+
 nav ul li a:link	    { color:#FFF; }
 nav ul li a:visited		{ color:#FFF; }
 nav ul li a:active		{ color:#FFF; }
 nav ul li a:hover		{ color:grey; }
 nav ul li a:focus		{ color:#696868; }
+
 .large-nav{
 	display: block;
 }
+
 .small-nav{
 	display: none;
 }
 
 
-/* Floats */
-.left{
-	float: left;
+/* Flex */
+
+.flex {
+	display: flex;
 }
-.right{
-	float: right;
+.justify-center{
+	justify-content: center;
 }
-.profile{
-	float: left;
+.align-center{
+	align-items: center;
 }
-.blog-text{
-	float: left;
+.flex-grow-double{
+	grow: 2rem;
+}
+.flex-column{
+	flex-direction: column;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.flex-direction{
+	flex-direction: row;
+}
+.mobile-flex{
+	display: no
 }
 
+
 /* page width */
+
 .col-1-1{
 	width: 100%;
 }
@@ -133,11 +157,14 @@ nav ul li a:focus		{ color:#696868; }
 .padding-right{
 	padding-right: 5rem;
 }
-.padding-bottom{
+.pad-bott-lrg{
 	padding-bottom: 6rem;
 }
-.pad-bot-med{
-	padding-bottom: 5rem;
+.pad-bott-med{
+	padding-bottom: 4rem;
+}
+.pad-bott-sm{
+	padding-bottom: 2rem;
 }
 
 /* Margin */
@@ -157,10 +184,6 @@ nav ul li a:focus		{ color:#696868; }
     display: block;
     content: "";
 }
-
- 
-
-
 
 .border {
 	box-sizing: border-box;
@@ -208,6 +231,12 @@ a:hover#menu-icon {
 	background-color: #444;
 	border-radius: 4px 4px 0 0;
 }
+
+.padd-mob {
+	padding: 0 7% 0 7%;
+}
+
+
 header{
 	position: relative;	
 	width: 100%;
