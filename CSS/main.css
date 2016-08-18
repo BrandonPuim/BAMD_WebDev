@@ -23,7 +23,6 @@
 }
 
 .slogan{
-	text-align: center;
 	font-size: 3.75rem;
 	color: white;
 	padding-top: 20rem;
@@ -32,25 +31,21 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 .about-us{
-	text-align: center;
 	color: black;
 	padding-bottom: 1rem;
 }
 
 .project-title{
-	text-align: center;
 	color: white;
 	padding: 2rem 0rem 2rem 0rem;
 }
 
 .about-title{
-	text-align: center;
 	color: black;
 	padding: 4rem 0rem 2rem 0rem;
 }
 
 .profile-blurb{
-	text-align: center;
 	padding: 0rem 4rem 1rem 4rem;
 }
 
@@ -82,7 +77,6 @@ footer {
 
 .footer-text {
 	color: white;
-	text-align: center;
 	font-size: 1rem;
 	padding: 1rem 0rem 1rem 0rem; 
 	margin: 0%;
